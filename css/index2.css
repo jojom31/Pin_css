@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.container {
+    background-color: coral;
+    padding: 10px;
+    border: 2px solid burlywood;
+    max-width: 960px;
+    margin: 0 auto;
+    height: 470px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    order: 1;
+}
+
+.images {
+    flex: 1 0 320px;
+    max-width: 320px;
+    position: relative;
+    width: 24%;
+    margin: 1%;
+    padding: 10px;
+    
+}
+
+.images.li {
+    fle
+    height: ;
+    width: 24%;
+    margin: 1%;
+    padding: 10px;
+}
+
